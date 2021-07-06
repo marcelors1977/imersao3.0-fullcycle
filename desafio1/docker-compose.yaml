@@ -3,5 +3,5 @@ services:
       build: ./
       ports:
         - 8000:8000
-      volumes:
-        - ./:/go/src:Z
+      # volumes:
+      #   - ./:/go/src:Z
